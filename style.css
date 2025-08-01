@@ -1,0 +1,29 @@
+.DW-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12 px;
+  margin: 20px 0;
+}
+
+.key-button {
+  width: 200px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.key-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+}
+
+/* Replace with your custom button images */
+.voices    { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/mainpage/main/NC Voices.png'); }
+.musicians { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/mainpage/main/NC Music.png'); }
+.directors { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/mainpage/main/NC Directors.png'); }
+.admin     { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/mainpage/main/NC Admin.png'); }
