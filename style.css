@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   gap: 24 px;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .key-button {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   background-position: center;
   border: 2px solid #444;
@@ -25,5 +25,5 @@
 /* Replace with your custom button images */
 .voices    { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Voices.png'); }
 .musicians { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Music.png'); }
-.directors { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Directors.png); }
+.directors { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Directors.png'); }
 .admin     { background-image: url('https://raw.githubusercontent.com/NakiaUHOP/DW-National-Choir-HUB/main/NC_Admin.png'); }
