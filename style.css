@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24 px;
+  gap: 100 px;
   margin: 30px 0;
 }
 
 .key-button {
-  width: 150px;
-  height: 150px;
+  width: 400px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   border: 2px solid #444;
