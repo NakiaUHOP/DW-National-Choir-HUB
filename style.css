@@ -27,6 +27,7 @@
 @media (max-width: 600px) {
   .key-button {
     flex: 0 0 auto;         /* Prevent shrinking/growing */
+    flex-direction: column;
     width: 200px;           /* Fixed width */
     height: 200px;          /* Fixed height */
   }
