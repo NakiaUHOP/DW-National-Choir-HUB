@@ -1,7 +1,6 @@
 .DW-buttons {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
   gap: 24px; /* space between buttons */
   margin: 30px 0;
 }
